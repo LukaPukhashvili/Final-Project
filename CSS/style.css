@@ -401,7 +401,7 @@ body{
     max-width: 617px;
     width: 100%;
     height: auto;
-    /* margin-left: 102px; */
+    margin-left: 102px;
     filter: drop-shadow(15px 15px 4px #303030);
     transition: 0.5s;
 } 
