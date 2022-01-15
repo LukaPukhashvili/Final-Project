@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>final project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/responsive.css">
+        <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img class="header-banner" src="images/header-banner.svg" alt="header-banner" >
+        
+        <header class="header-main-div">
+            <nav>
+                <div class="nav-div" >
+                    <h3 class="LOGO">
+                        <a class="logo-color" href="index.html">PIZZA.</a> 
+                        <a href="index.html">
+                            <span class="span-logo">TIME</span>
+                        </a>
+                    </h3>
+                    <div class="header-div">
+                        <ul class="header">
+                            <li class="nav-li">
+                                <a class="header-word1" href="#" alt="about">ABOUT</a>
+                            </li>
+                            <li class="nav-li-2">
+                                <a class="header-word2" href="#our-food" alt="our food">OUR FOOD</a>
+                            </li>
+                            <li class="nav-li-3">
+                                <a class="header-word3" href="#plans" alt="plans">PLANS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="button-1" onclick="dosomething()">CONTACT</button>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <div class="main-message-div">
+                    <p class="main-message">Have no time to prepare <span class="main-message-span">food</span>?</p>
+                </div>
+                <div class="second-main-message-div">
+                    <p class="second-main-message">Choose one of our plans, enter delivery time and enjoy delicious food without leaving your home!</p>
+                </div>
+                <button class="button-2" onclick="order()">Order Food</button>
+            </div>
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-instagram-square fa-2x"></i>
+        </section>
+        
+        <section id="our-food" class="our-food">
+            <div class="second-section-main-div">
+                <!-- <div class="second-section-main-div"></div> -->
+                    <div>
+                        <img class="banner-2" src="images/banner-2.svg" alt="banner-2">
+                    </div>
+                    <div class="second-main-div-2">
+                        <div class="head">
+                            <h3 class="section-2-head">OUR FOOD</h3>
+                        </div>
+                            <div class="line">
+                        </div>
+                        <div class="second-section-subdiv-1">
+                            <div class="button-and-text-1">
+                                <button class="small-button" onclick="suborderbuttons()">
+                                    <img class="plus-icon" src="images/plus.svg" alt="plus-icon">
+                                </button>
+                                <p class="signature-pizzas">Signature Pizzas</p>
+                            </div>
+                            <p class="Signature-Pizzas-extensive-text">Choose one of our plans, enter delivery time.</p>
+                        </div>
+                        <div class="second-section-subdiv-1">
+                            <div class="button-and-text-2">
+                                <button class="small-button" onclick="suborderbuttons()">
+                                    <img class="plus-icon" src="images/plus.svg" alt="plus-icon">
+                                </button>
+                                <p class="Oven-Baked-Subs">Oven-Baked Subs</p>
+                            </div>
+                            <p class="Oven-Baked-Subs-extensive-text">Choose one of our plans, enter delivery time
+                            and enjoy delicious food without leaving your home!</p>
+                        </div>
+                        <div class="second-section-subdiv-1">
+                            <div class="button-and-text-3">
+                                <button class="small-button" onclick="suborderbuttons()">
+                                    <img class="plus-icon" src="images/plus.svg" alt="plus-icon">
+                                </button>
+                                <p class="Wings-Sides-and-More">Wings, Sides & More</p>
+                            </div>
+                            <p class="Wings-Sides-and-More-extensive-text">Choose one of our plans, enter delivery time.</p>
+                        </div>
+                        <button class="order-food-button" onclick="order()">Order Food</button>
+                    </div>
+                    
+                <!-- </div> -->
+            </div>
+        </section>
+        <section id="plans">
+            <div class="banner-3">
+                <div class="line-2"></div>
+                <div class="banner-3-background-2"></div>
+                <p class="plans-text">PLANS</p>
+                <!-- <div class="images"> -->
+                    <img class="banner-3-image-1" src="images/banner-3-image-1.png" alt="banner-3-image-1">
+                    <img class="banner-3-image-2" src="images/banner-3-image-2.png" alt="banner-3-image-2">
+                <!-- </div> -->
+            </div>
+        </section>
+        <section id="contact-us">
+            <div class="contact-us-text-div">
+                <p class="contact-us-text">Contact us</p>
+                <div class="line-3"></div>
+            </div>
+            <div>
+                <form action="send_page" method="post" class="contact-form">
+                    <div class="contact-background-div">
+                        <!-- <div class="contact-div-background"></div> -->
+                        <div class="full-name-div">
+                            <input type="text" class="full-name-input" name="sender-name" placeholder="Full Name"><br>
+                        </div>
+                        <div class="Phone-Number-div">
+                            <input type="text" class="Phone-Number-input" name="sender-name" placeholder="Phone Number"><br>
+                        </div>
+                        <div class="description-div">
+                            <textarea name="description" class="description" placeholder="Message"></textarea><br>
+                        </div>
+                        <label class="checkbox" for="mycheckbox">
+
+                            <input class="checkbox-input" type="checkbox" name="mycheckbox" onclick="check();">
+
+                            <div class="checkbox-text-div"></div>
+                                <p class="checkbox-text">I agree with all conditions</p>
+                        </label>
+                        <div>
+                            <button class="submit-button" onclick="feedback()">
+                                <span class="submit-span">Submit</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2076.472061710711!2d44.81017101196462!3d41.692709928735354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cfa48113911%3A0xfc6f7fa386bcdd39!2z4YOZ4YOQ4YOk4YOUIOGDpOGDmuGDkOGDo-GDlOGDoOGDoeGDmA!5e0!3m2!1ska!2sge!4v1641999417902!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0"></iframe>
+            </div>
+        </section>
+        <footer>
+                <div class="footer-main-div">
+                    <p class="footer-logo">
+                        <a class="footer-logo-color" href="index.html">PIZZA.</a> 
+                        <a href="index.html">
+                            <span class="footer-span-logo">TIME</span>
+                        </a>
+                    </p>
+                    <div class="footer-contact-div">
+                        <p class="footer-contact-header">Contact</p>
+                        <ul>
+                            <li class="number-li">
+                                <span class="footer-span-contact">Tel:</span>
+                                <a class="phone-Number" href="tel:+995 574 00 63 77">+995 574-00-63-77</a>
+                            </li>
+                            <li class="E-mail-li">
+                                <span class="footer-span-E-mail">E-mail:</span>
+                                <a class="E-mail" href="luka2006.01.22@gmail.com">
+                                    luka2006.01.22@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu-div">
+                        <p class="footer-menu-header">Menu</p>
+                        <ul>
+                            <li class="about-us-li">
+                                <a class="footer-about-us" href="index.html">About us</a>
+                            </li>
+                            <li class="our-food-li">
+                                <a class="footer-our-food" href="#our-food">Our Food</a>
+                            </li>
+                            <li class="plans-li">
+                                <a class="footer-plans" href="#plans">PLans</a>
+                            </li>
+                            <li class="contact-us-li">
+                                <a class="footer-contact-us" href="#contact-us">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-icons-div">
+                        <p class="footer-icons-header">Follow Us</p>
+                        <ul class="icons-ul">
+                            <li class="fb-icon-li">
+                                <a href="https://www.facebook.com/profile.php?id=100008806653110" target="blank">
+                                    <img src="images/fb-icon.svg" alt="fb-icon">
+                                </a>
+                            </li>
+                            <li class="instagram-icon-li">
+                                <a href="https://www.instagram.com/luka.pukhashvili/?fbclid=IwAR3JDK2pSPoQUrFwF1utRgmSwRzo4z4YvJwI2xLDxyIT7rOJmjIDLFCvZjA" target="blank">
+                                    <img src="images/instagram-icon.svg" alt="instagram-icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </body>
+</html>

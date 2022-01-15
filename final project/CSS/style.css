@@ -1,0 +1,772 @@
+/* ჰედერის გასტილვა */
+body{
+    background-color: #eeeded;
+}
+.nav-div{
+    max-width: 100%;
+    height: 203px;
+    display: flex;
+    position: relative;
+    z-index: 1000;
+}
+.header-banner{
+    position: absolute;
+    max-width: 900px;
+    height: 800px;
+    /* padding-left: 647px; */
+    margin-top: 0px;
+    right: 0px;
+    z-index: 100;
+    opacity: 91%;
+    filter: drop-shadow(15px 15px 5px #707070);
+}
+.header{
+    display: flex;
+    top: 0px;
+    
+}
+.header-div{
+    width: 550px;
+    padding-right: 0px;
+}
+.span-logo{
+    color: #F8A22F;
+    z-index: 999;
+}
+.LOGO{
+    font-family:  'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    padding-top: 74px;
+    padding-left: 127px; 
+    margin-right: 330px;
+    letter-spacing: 3px;
+    z-index: 998;
+}
+.logo-color{
+    color: #242424;
+    z-index: 997;
+}
+.nav-li{
+    margin-right: 116px;
+    padding-top: 60px;
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav-li-2{
+    margin-right: 116px;
+    padding-top: 60px;
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav-li-3{
+    padding-right: 0px;
+    padding-top: 60px;
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+.header-word1{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.header-word1::before {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#F8A22F;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.header-word1:hover::before{
+    width: 66px;
+    color: #5863F8;
+}
+.header-word2{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.header-word2::before{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#F8A22F;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.header-word2:hover::before{
+    width: 103px;
+    color: #5863F8;
+}
+.header-word3{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.header-word3::before{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#F8A22F;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.header-word3:hover::before{
+    width: 61px;
+    color: #5863F8;
+}
+ /* პირველი ღილაკის გასტილვა */
+.button-1{ 
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 40px;
+    border: 1px solid #707070;
+    background: #F8A22F;
+    color: #ffffff;
+    padding: 15px 50px;
+    height: 60px;
+    border-radius: 30px;
+    z-index: 995;
+}
+.button-1:hover{
+    background-color: #ffffff;
+    color: #F8A22F;
+    transition: 0.8s;
+    border: 1px solid #F8A22F;}
+/* პირველი ღილაკის გასტილვა დასრულდა */
+/* ჰედერის გასტილვა დასრულდა */
+
+/* პირველი სექციის გასტილვა */
+.section-1{
+    z-index: 990;
+}
+.main-message-div{
+    max-width: 590px;
+    max-height: 187px;
+    padding-left: 127px;
+    margin-top: 67px;
+    z-index: 994;
+}
+.main-message{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 61px;
+    color: #242424;
+    z-index: 993;
+}
+.main-message-span{
+    z-index: 999;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #F8A22F;
+}
+.second-main-message-div{
+    z-index: 992;
+    max-width: 600px;
+    max-height: 70PX;
+    padding-left: 127px;
+    margin-top: 23px;
+}
+.second-main-message{
+    z-index: 991;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #707070;
+}
+/* მეორე ღილაკის გასტილვა */
+.button-2{ 
+    z-index: 989;
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 40px;
+    border: 1px solid #707070;
+    background: #F8A22F;
+    color: #ffffff;
+    padding: 15px 50px;
+    margin-left: 127px;
+    height: 60px;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+.button-2:hover{
+    background-color: #ffffff;
+    color: #F8A22F;
+    border: 1px solid #F8A22F;
+}
+.second-section-main-div{
+    /* max-height: 614px;
+    width: 700px; */
+    display: flex;
+    margin-top: 170px;
+}
+.second-main-div-2{
+    max-height: 614px;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+.banner-2{
+    margin-top: 190px;
+    padding-left: 0px;
+    width: 800px;
+    filter: drop-shadow(10px 10px 4px #707070);
+}
+/* სათაური */
+.section-2-head{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 61px;
+}
+.line{
+    width: 225px;
+    height: 4px;
+    background-color: #F8A22F;
+}
+
+.head{
+    max-width: 350px;
+    max-height: 114px;
+}
+/* .second-section-subdiv-1{
+    /* display: flex; */
+/* ღილაკები */
+.small-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F8A22F;
+    border: 1px solid #707070;
+    text-align: center;
+    transition: 0.8s;
+}
+.small-button:hover{
+    background-color: #ffffff;
+    color: #F8A22F;
+    border: 1px solid #F8A22F;
+}
+.plus-icon{
+    max-width: 18px;
+    padding-top: 5px;
+}
+/* ღილაკების გასტილვა დასრულდა */
+    /* პირველი ღილაკი და ტექსტი */
+.button-and-text-1{
+    margin-top: 85px;
+    width: 300px;
+    height: 55px;
+    display: flex;
+}
+.signature-pizzas{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    margin-left: 25px;
+    padding-top: 11px;
+}
+.Signature-Pizzas-extensive-text{
+    padding-left: 75px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+/* პირველი ღილაკის და ტექსტის გასტილვა დასრულდა */
+/* მეორე ღილაკი და ტექსტი */
+.button-and-text-2{
+    margin-top: 29px;
+    width: 300px;
+    height: 55px;
+    display: flex;
+}
+.Oven-Baked-Subs{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    margin-left: 25px;
+    padding-top: 11px;
+}
+.Oven-Baked-Subs-extensive-text{
+    padding-left: 75px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    max-width: 450px;
+}
+/* მეორე ღილაკის და ტექსტის გასტილვა დასრულდა */
+/* მესამე ღილაკი და ტექსტი */
+.button-and-text-3{
+    margin-top: 10px;
+    width: 400px;
+    height: 55px;
+    display: flex;
+}
+.Wings-Sides-and-More{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    margin-left: 25px;
+    padding-top: 11px;
+}
+.Wings-Sides-and-More-extensive-text{
+    padding-left: 75px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    max-width: 450px;
+}
+/* მესამე ღილაკის და ტექსტის გასტილვა დასრულდა */
+.order-food-button{ 
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 40px;
+    border: 1px solid #707070;
+    background: #F8A22F;
+    color: #ffffff;
+    padding: 15px 50px;
+    height: 60px;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+.order-food-button:hover{
+    background-color: #ffffff;
+    color: #F8A22F;
+    border: 1px solid #F8A22F;
+}
+.banner-3{
+    width: 100%;
+    height: 800px;
+    margin-top: 140px;
+    position: relative;
+    background-image: url(../images/sxva.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-image: url(../images/banner-3.svg); */
+}
+.banner-3-background-2{
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/banner-3-background-2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute
+}
+/* .plans-text-div{
+    text-align: center;
+} */
+.plans-text{
+    margin-top: 104px;
+    /* padding-left: 667px; */
+    position: absolute;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 61px;
+    color: #242424;
+}
+.banner-images{
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-3-image-1{
+    margin-top: 269px;
+    position: absolute;
+    max-width: 617px;
+    width: 100%;
+    height: auto;
+    /* margin-left: 102px; */
+    filter: drop-shadow(15px 15px 4px #303030);
+    transition: 0.5s;
+} 
+.banner-3-image-1:hover{
+    transform: scale(1.2);
+}
+.banner-3-image-2{
+    max-width: 617px;
+    width: 100%;
+    height: auto;
+    margin-top: 269px;
+    position: absolute;
+    margin-left: 807px;
+    filter: drop-shadow(15px 15px 4px #303030);
+    transition: 0.5s;
+}
+.banner-3-image-2:hover{
+    transform: scale(1.2);
+}
+.line-2{
+    position: absolute;
+    height: 4px;
+    max-width:140px;
+    background-color: #ffffff;
+    margin-top: 170px;
+    margin-left: 671px;
+}
+.contact-us-text-div{
+    max-width: 500px;
+    max-height: 90px;
+    margin-top: 130px;
+    padding-left: 102px;
+}
+.contact-us-text{
+    font-family:  'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 61px;
+}
+.line-3{
+    max-width: 140px;
+    height: 4px;
+    background-color: #F8A22F;
+    padding-left: 102px;
+    margin-top: 4px;
+}
+.contact-background-div{
+    width: 500px;
+    height: 550px;
+    background-color: #F8A22F;
+    position: absolute;
+    margin-left: 102px;
+    margin-top: 40px;
+    border-radius: 50px;
+    z-index: 10;
+    filter: drop-shadow(10px 10px 5px #303030);
+}
+/* .contact-div-background{
+    max-width: 500px;
+    height: 550px;
+    background-image: url(../images/sxva-2.png);
+    position: absolute;
+    margin-left: 102px;
+    margin-top: 40px;
+} */
+.full-name-div{
+    width: 350px;
+    margin-left: 75px;
+}
+.full-name-input{
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    width: 350px;
+    height: 45px;
+    margin-top: 80px;
+    border: 1px solid #707070
+}
+.Phone-Number-div{
+    width: 350px;
+    margin-left: 75px;
+}
+.Phone-Number-input{
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    width: 350px;
+    height: 45px;
+    margin-top: 30px;
+    border: 1px solid #707070;
+}
+.description-div{
+    width: 350px;
+    margin-left: 75px;
+}
+.description{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 350px;
+    height: 110px;
+    margin-top: 30px;
+    border: 1px solid #707070;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+}
+.checkbox{
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: #F8A22F;
+}
+.checkbox-input{
+    width: 17px;
+    height: 17px;
+    border: 1px solid #707070;
+}
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox-text{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+}
+.submit-button{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.submit-span{
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+.submit-button:hover{
+    background-color: #F8A22F;
+    color: #ffffff;
+    transition: 0.8s;
+}
+.map{
+    margin-top: 270px;
+    z-index: 10;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    z-index: 5;
+}
+
+/*footer-ის გასტილვა */
+.footer-main-div{
+    background-color: #242424;
+    background-image: url(../images/footer-background.svg);
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+/* footer-ის ლოგო */
+.footer-logo{
+    font-family:  'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 220px;
+    margin-top: 67px;
+    letter-spacing: 3px;
+}
+.footer-logo-color{
+    color: #FFFFFF;
+}
+.footer-span-logo{
+    color: #F8A22F;
+}
+/* footer-ის ლოგოს გასტილვა დასრულდა */
+.footer-contact-div{
+    width: 257px;
+    height: 176px;
+    margin-left: 100px;
+    margin-top: 67px;
+}
+.footer-contact-header{
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.footer-contact-header::before{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#F8A22F;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.footer-contact-header:hover::before{
+    width: 66px;
+    color: #5863F8;
+}
+/* ნომერი */
+.number-li{
+    margin-top: 25px;
+}
+.footer-span-contact{
+    font-family:  'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.phone-Number{
+    color: #FFFFFF;
+    size: 15px;
+}
+/* email კონტაქტი */
+.E-mail-li{
+    margin-top: 15px;
+}
+.footer-span-E-mail{
+    font-family:  'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.E-mail{
+    size: 15px;
+    color: #FFFFFF;
+}
+/* footer-ის მენიუ */
+.footer-menu-header{
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.footer-menu-header::before{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#F8A22F;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.footer-menu-header:hover::before{
+    width: 51px;
+}
+/* about us */
+.about-us-li{
+    margin-top: 25px;
+}
+.footer-about-us{
+    font-family:  'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.footer-menu-div{
+    width: 100px;
+    height: 176px;
+    margin-left: 100px;
+    margin-top: 67px;
+}
+/* our food */
+.our-food-li{
+    margin-top: 15px;
+}
+.footer-our-food{
+    font-family:  'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/* plans */
+.plans-li{
+    margin-top: 15px;
+}
+.footer-plans{
+    font-family:  'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.contact-us-li{
+    margin-top: 15px;
+}
+.footer-contact-us{
+    font-family:  'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/* footer-ის აიქონების დივი */
+.footer-icons-div{
+    margin-top: 67px;
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+}
+.icons-ul{
+    display: flex;    
+}
+.footer-icons-header{
+    font-family:  'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.footer-icons-header::before{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#F8A22F;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.footer-icons-header:hover::before{
+    width: 81px;
+}
+.fb-icon-li{
+    margin-top: 25px;
+    margin-right: 8px;
+    transition: 0.5s;
+}
+.fb-icon-li:hover{
+    transform: scale(1.2);
+}
+.instagram-icon-li{
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.instagram-icon-li:hover{
+    transform: scale(1.2);
+}
+.fab{
+    margin-top: 60px;
+    padding-left: 127px;
+}
