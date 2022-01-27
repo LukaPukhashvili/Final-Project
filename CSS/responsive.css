@@ -1229,3 +1229,14 @@
         height: 600px;
     }
 }
+
+
+
+@media(max-width:1487px){
+    .banner-3-image-1{
+        width: 500px;
+    }
+    .banner-3-image-2{
+        width: 500px;
+    }
+}
