@@ -12,6 +12,7 @@ body{
 .header-banner{
     position: absolute;
     max-width: 900px;
+    width: 100%;
     height: 800px;
     /* padding-left: 647px; */
     margin-top: 0px;
@@ -23,10 +24,11 @@ body{
 .header{
     display: flex;
     top: 0px;
-    
+    width: 100%;
 }
 .header-div{
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
     padding-right: 0px;
 }
 .span-logo{
@@ -389,6 +391,12 @@ body{
     font-style: normal;
     font-size: 61px;
     color: #242424;
+}
+.banner-3-images{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
 }
 .banner-images{
     height: 800px;
