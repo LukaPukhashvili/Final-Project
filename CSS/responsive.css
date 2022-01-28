@@ -54,14 +54,14 @@
     .plans-text{
         padding-left: 577px;
     }
-    .banner-3-image-1{
+/*     .banner-3-image-1{
         width: 537px;
         margin-left: 62px;
     }
     .banner-3-image-2{
         width: 537px;
         margin-left: 677px;
-    }
+    } */
     .footer-logo{
         margin-left: 170px;
         width: 350px;
@@ -172,19 +172,19 @@
         margin-top: 84px;
         font-size: 56px;
     }
-    .banner-3-image-1{
+/*     .banner-3-image-1{
         width: 497px;
         margin-top: 229px;
         margin-left: 24px;
-    }
+    } */
     .banner-3-image-1:hover{
         transform: scale(1.1);
     }
-    .banner-3-image-2{
+/*     .banner-3-image-2{
         width: 497px;
         margin-top: 229px;
         margin-left: 537px;
-    }
+    } */
     .banner-3-image-2:hover{
         transform: scale(1.1);
     }
