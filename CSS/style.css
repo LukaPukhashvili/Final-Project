@@ -377,7 +377,6 @@ body{
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     /* background-image: url(../images/banner-3.svg); */
 }
 .banner-3-background-2{
@@ -432,16 +431,16 @@ body{
 .banner-3-image-1:hover{
     transform: scale(1.2);
 }
-/* .banner-3-image-2{
+.banner-3-image-2{
     max-width: 617px;
     width: 100%;
     height: auto;
     margin-top: 269px;
-    position: absolute;
+    position: absolute;/* 
     /* margin-left: 807px; */
-    /* filter: drop-shadow(15px 15px 4px #303030);
+    filter: drop-shadow(15px 15px 4px #303030);
     transition: 0.5s;
-} */
+}
 .banner-3-image-2:hover{
     transform: scale(1.2);
 }
