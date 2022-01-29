@@ -416,7 +416,7 @@ body{
     display: flex;
     justify-content: space-between;
 } */
-.banner-3-images{
+.images{
     display: flex;
     justify-content: space-between;
     position: relative;
