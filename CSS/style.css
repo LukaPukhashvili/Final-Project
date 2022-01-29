@@ -375,8 +375,8 @@ body{
     background-image: url(../images/sxva.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     /* background-image: url(../images/banner-3.svg); */
 }
 .banner-3-background-2{
@@ -385,7 +385,9 @@ body{
     background-image: url(../images/banner-3-background-2.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    position:absolute
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
 }
 /* .plans-text-div{
     text-align: center;
