@@ -377,7 +377,7 @@ body{
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* background-image: url(../images/banner-3.svg); */
 }
 .banner-3-background-2{
