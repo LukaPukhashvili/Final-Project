@@ -375,9 +375,9 @@ body{
     background-image: url(../images/sxva.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     /* background-image: url(../images/banner-3.svg); */
 }
 .banner-3-background-2{
@@ -427,6 +427,7 @@ body{
     max-width: 617px;
     width: 100%;
     height: auto;
+    align-items: center;
     /* margin-left: 102px; */
     filter: drop-shadow(15px 15px 4px #303030);
     transition: 0.5s;
