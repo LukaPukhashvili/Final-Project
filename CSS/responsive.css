@@ -1,15 +1,15 @@
-@media(max-width:1487px){
+/* @media(max-width:1487px){
     .banner-3-image-1{
         width: 480px;
     }
     .banner-3-image-2{
         width: 4800px;
     }
-}
-@media(max-width:1280px){
+} */
+/* @media(max-width:1280px){
     .header-banner{
 /*         width: 747px; */
-        margin-top: 0px;
+        /* margin-top: 0px;
         height: 697px;
     }
     .LOGO{
@@ -53,7 +53,7 @@
     }
     .plans-text{
         padding-left: 577px;
-    }
+    } */
 /*     .banner-3-image-1{
         width: 537px;
         margin-left: 62px;
@@ -62,15 +62,15 @@
         width: 537px;
         margin-left: 677px;
     } */
-    .footer-logo{
+    /* .footer-logo{
         margin-left: 170px;
         width: 350px;
     }
-}
+} */
 
 
 
-
+/* 
 
 @media(max-width:1080px){
     .header-banner{
@@ -137,7 +137,7 @@
         border-radius: 22px;
     }
     /* small-button-1 */
-    .signature-pizzas{
+    /* .signature-pizzas{
         font-size: 23px;
     }
     .Signature-Pizzas-extensive-text{
@@ -148,7 +148,7 @@
         margin-top: 36px;
     }
     /* small-button-2 */
-    .Oven-Baked-Subs{
+    /* .Oven-Baked-Subs{
         font-size: 23px;
     }
     .Oven-Baked-Subs-extensive-text{
@@ -156,9 +156,9 @@
     }
     .button-and-text-2{
         margin-top: 12px;
-    }
+    } */
     /* small-button-3*/
-    .Wings-Sides-and-More{
+    /* .Wings-Sides-and-More{
         font-size: 23px;
     }
     .Wings-Sides-and-More-extensive-text{
@@ -171,25 +171,24 @@
         padding-left: 428px;
         margin-top: 84px;
         font-size: 56px;
-    }
+    } */
 /*     .banner-3-image-1{
         width: 497px;
         margin-top: 229px;
         margin-left: 24px;
     } */
-    .banner-3-image-1:hover{
+    /* .banner-3-image-1:hover{
         transform: scale(1.1);
-    }
+    } */
 /*     .banner-3-image-2{
         width: 497px;
         margin-top: 229px;
         margin-left: 537px;
     } */
-    .banner-3-image-2:hover{
+    /* .banner-3-image-2:hover{
         transform: scale(1.1);
-    }
-    /* contact-div */
-    .contact-background-div{
+    } */
+    /* .contact-background-div{
         width: 420px;
         height: 480px;
     }
@@ -204,8 +203,8 @@
     }
     .checkbox{
         margin-left: 35px;
-    }
-    .submit-button{
+    } */
+    /* .submit-button{
         margin-left: 125px;
         margin-top: 20px;
     }
@@ -225,12 +224,12 @@
     .footer-icons-div{
         margin-left: 80px;
     }
-}
+} */ 
 
 
 
 
-@media(max-width:1024px){
+/* @media(max-width:1024px){
     .header-banner{
         width: 697px;
         margin-top: 0px;
@@ -259,9 +258,9 @@
         font-size: 16px;
         margin-left: 40px;
         /* width: 350px; */
-        padding: 7px 27px;
-    }
-    .main-message-div{
+        /* padding: 7px 27px;
+    } */ 
+    /* .main-message-div{
         width: 400px;
         margin-top: 47px;
         padding-left: 77px;
@@ -283,8 +282,8 @@
     }
     .second-main-message{
         font-size: 15px;
-    }
-    .section-2-head{
+    } */
+    /* .section-2-head{
         font-size: 52px;
     }
     .banner-2{
@@ -300,10 +299,10 @@
         border-radius: 22px;
     }
     /* small-button-1 */
-    .signature-pizzas{
+    /* .signature-pizzas{
         font-size: 22px;
-    }
-    .Signature-Pizzas-extensive-text{
+    }  */
+    /* .Signature-Pizzas-extensive-text{
         font-size: 13px;
     }
 
@@ -311,7 +310,7 @@
         margin-top: 36px;
     }
     /* small-button-2 */
-    .Oven-Baked-Subs{
+    /* .Oven-Baked-Subs{
         font-size: 22px;
     }
     .Oven-Baked-Subs-extensive-text{
@@ -321,13 +320,13 @@
         margin-top: 12px;
     }
     /* small-button-3*/
-    .Wings-Sides-and-More{
+    /* .Wings-Sides-and-More{
         font-size: 22px;
     }
     .Wings-Sides-and-More-extensive-text{
         font-size: 13px;
-    }
-    .order-food-button{
+    }  */
+    /* .order-food-button{
         margin-top: 30px;
         padding: 7px 32px;
         font-size: 16px;
@@ -341,8 +340,8 @@
         width: 467px;
         margin-top: 229px;
         margin-left: 24px;
-    }
-    .banner-3-image-1:hover{
+    } */
+    /* .banner-3-image-1:hover{
         transform: scale(1.1);
     }
     .banner-3-image-2{
@@ -354,10 +353,10 @@
         transform: scale(1.1);
     }
     /* contact-div */
-    .contact-background-div{
+    /* .contact-background-div{
         width: 380px;
         height: 450px;
-    }
+    } 
     .full-name-input{
         margin-top: 45px;
         margin-left: 20px;
@@ -366,8 +365,8 @@
     .Phone-Number-input{
         margin-left: 20px;
         max-width: 270px;
-    }
-    .description{
+    } */
+    /* .description{
         margin-left: 20px;
         max-width: 270px;
     }
@@ -383,8 +382,8 @@
     }
     .footer-main-div{
         height: 280px;
-    }
-    .footer-logo{
+    } */
+    /* .footer-logo{
         font-size: 44px;
         margin-left: 80px;
         width: 350px;
@@ -394,14 +393,14 @@
     }
     .footer-menu-div{
         margin-left: 70px;
-    }
-    .footer-icons-div{
+    } */
+    /* .footer-icons-div{
         margin-left: 70px;
     }
     .contact-us-text{
         font-size: 52px;
     }
-}
+} */
 
 
 
@@ -409,7 +408,7 @@
 
 
 
-@media(max-width:768px){
+/* @media(max-width:768px){
     .header-main-div{
         height:100px;
     }
@@ -423,8 +422,8 @@
     }
     .span-logo{
         font-size: 23px;
-    }
-    .LOGO{
+    } */
+    /* .LOGO{
         font-size: 23px;
         padding-left: 67px;
         padding-top: 32px;
@@ -441,15 +440,15 @@
         margin-right: 14px;
         font-size: 12px;
         width: 70px;
-    }
-    .nav-li-3{
+    } */
+    /* .nav-li-3{
         padding-top: 32px;
         font-size: 12px;
         width: 50px;
         margin-right: 0px;
     }
     /* hover before */
-    .header-word1:hover::before{
+    /* .header-word1:hover::before{
         width: 44px;
     }
     .header-word2:hover::before{
@@ -457,16 +456,16 @@
     }
     .header-word3:hover::before{
         width: 38px;
-    }
-    .button-1{
-        /* display: none; */
+    } */
+    /* .button-1{
+        display: none;
         margin-left: 35px;
         margin-top: 24px;
         font-size: 12px;
         padding: 6px 12px;
         width: 100px;
         height: 30px;
-    }
+    }  
     .main-message-div{
         width: 400px;
         margin-top: 27px;
@@ -494,7 +493,7 @@
         font-size: 12px;
     }
     /* second-section */
-    .section-2-head{
+    /* .section-2-head{
         font-size: 32px;
     }
     .banner-2{
@@ -508,13 +507,13 @@
         width: 24px;
         height: 24px;
         border-radius: 12px;
-    }
-    .plus-icon{
+    } */
+    /* .plus-icon{
         max-width: 8px;
         padding-top: 4px;
     }
     /* small-button-1 */
-    .signature-pizzas{
+    /* .signature-pizzas{
         font-size: 22px;
         margin-left: 15px;
         padding-top: 0px;
@@ -526,9 +525,9 @@
     .button-and-text-1{
         margin-top: 32px;
         height: 35px;
-    }
+    }  */
     /* small-button-2 */
-    .Oven-Baked-Subs{
+    /* .Oven-Baked-Subs{
         font-size: 22px;
         margin-left: 15px;
         padding-top: 0px;
@@ -541,9 +540,9 @@
     .button-and-text-2{
         height: 35px;
         margin-top: 8px;
-    }
+    } */
     /* small-button-3*/
-    .Wings-Sides-and-More{
+    /* .Wings-Sides-and-More{
         font-size: 22px;
         margin-left: 15px;
         padding-top: 0px;
@@ -561,8 +560,8 @@
         width: 100px;
         height: 30px;
         font-size: 12px;
-    }
-    .plans-text{
+    } */
+    /* .plans-text{
         padding-left: 322px;
         margin-top: 64px;
         font-size: 36px;
@@ -582,9 +581,9 @@
     }
     .banner-3-image-2:hover{
         transform: scale(1.1);
-    }
+    } */
     /* contact-div */
-    .contact-us-text{
+    /* .contact-us-text{
         font-size: 36px;
     }
     .contact-background-div{
@@ -601,8 +600,8 @@
     }
     .description-div{
         margin-left: 15px;
-    }
-    .checkbox{
+    } */
+    /* .checkbox{
         margin-left: 15px;
     }
     .full-name-input{
@@ -623,8 +622,8 @@
     .checkbox{
         margin-left: 12px;
         width: 200px;
-    }
-    .checkbox-text{
+    } */
+    /* .checkbox-text{
         font-size: 12px;
     }
     .submit-button{
@@ -643,8 +642,8 @@
         font-size: 44px;
         margin-left: 80px;
         width: 350px;
-    }
-    .footer-contact-div{
+    } */
+    /* .footer-contact-div{
         margin-left: 60px;
     }
     .footer-menu-div{
@@ -659,7 +658,7 @@
     .banner-3{
         height: 500px;
     }
-}
+} */
 
 
 
@@ -667,7 +666,7 @@
 
 
 
-@media(max-width:480px){
+/* @media(max-width:480px){
     .header-main-div{
         height:60px;
     }
@@ -683,8 +682,8 @@
     }
     .span-logo{
         font-size: 15px;
-    }
-    .LOGO{
+    } */
+    /* .LOGO{
         font-size: 15px;
         padding-left: 37px;
         padding-top: 20px;
@@ -709,9 +708,9 @@
         font-size: 9px;
         max-width: 28px;
         margin-right: 0px;
-    }
+    } */
     /* hover before */
-    .header-word1:hover::before{
+    /* .header-word1:hover::before{
         margin-top: 10px;
         height: 1px;
         width: 32px;
@@ -725,10 +724,10 @@
         margin-top: 10px;
         height: 1px;
         width: 28px;
-    }
-    .button-1{
+    } */
+    /* .button-1{ */
         /* display: none; */
-        margin-left: 10px;
+        /* margin-left: 10px;
         margin-top: 16px;
         padding: 3px 6px;
         width: 66px;
@@ -752,8 +751,8 @@
         width: 66px;
         height: 18px;
         font-size: 8px;
-    }
-    .main-message{
+    } */
+    /* .main-message{
         font-size: 18px;
     }
     .main-message-span{
@@ -761,9 +760,9 @@
     }
     .second-main-message{
         font-size: 8px;
-    }
+    } */
     /* second-section */
-    .second-section-main-div{
+    /* .second-section-main-div{
         margin-top: 0px;
         display: block;
         flex-direction: column;
@@ -790,9 +789,9 @@
     .plus-icon{
         max-width: 8px;
         padding-top: 4px;
-    }
+    } */
     /* small-button-1 */
-    .signature-pizzas{
+    /* .signature-pizzas{
         font-size: 22px;
         margin-left: 15px;
         padding-top: 0px;
@@ -804,9 +803,9 @@
     .button-and-text-1{
         margin-top: 32px;
         height: 35px;
-    }
+    } */
     /* small-button-2 */
-    .Oven-Baked-Subs{
+    /* .Oven-Baked-Subs{
         font-size: 22px;
         margin-left: 15px;
         padding-top: 0px;
@@ -819,9 +818,9 @@
     .button-and-text-2{
         height: 35px;
         margin-top: 8px;
-    }
+    } */
     /* small-button-3*/
-    .Wings-Sides-and-More{
+    /* .Wings-Sides-and-More{
         font-size: 22px;
         margin-left: 15px;
         padding-top: 0px;
@@ -863,9 +862,9 @@
     }
     .banner-3-image-2:hover{
         transform: scale(1.1);
-    }
+    } */
     /* contact-div */
-    .contact-us-text-div{
+    /* .contact-us-text-div{
         margin-top: 0px;
     }
     .contact-us-text{
@@ -944,14 +943,14 @@
     .banner-3{
         height: 500px;
     }
-}
+} */
 
 
 
 
 
 
-@media(max-width:320px){
+/* @media(max-width:320px){
     .header-main-div{
         height:60px;
     }
@@ -993,9 +992,9 @@
         font-size: 8px;
         max-width: 26px;
         margin-right: 0px;
-    }
+    } */
     /* hover before */
-    .header-word1:hover::before{
+    /* .header-word1:hover::before{
         margin-top: 10px;
         height: 1px;
         width: 32px;
@@ -1011,14 +1010,14 @@
         width: 28px;
     }
     .button-1{
-        display: none;
+        display: none; */
         /* margin-left: 10px;
         margin-top: 16px;
         padding: 3px 6px;
         width: 66px;
         height: 18px;
         font-size: 8px; */
-    }
+    /* }
     .main-message-div{
         width: 140px;
         margin-top: 12px;
@@ -1045,9 +1044,9 @@
     }
     .second-main-message{
         font-size: 6px;
-    }
+    } */
     /* second-section */
-    .second-section-main-div{
+    /* .second-section-main-div{
         margin-top: 0px;
         display: block;
         flex-direction: column;
@@ -1074,9 +1073,9 @@
     }
     .plus-icon{
         max-width: 6px;
-    }
+    } */
     /* small-button-1 */
-    .signature-pizzas{
+    /* .signature-pizzas{
         font-size: 16px;
         margin-left: 8px;
         padding-top: 0px;
@@ -1088,9 +1087,9 @@
     .button-and-text-1{
         margin-top: 16px;
         height: 22px;
-    }
+    } */
     /* small-button-2 */
-    .Oven-Baked-Subs{
+    /* .Oven-Baked-Subs{
         font-size: 16px;
         margin-left: 8px;
         padding-top: 0px;
@@ -1103,9 +1102,9 @@
     .button-and-text-2{
         height: 22px;
         margin-top: 6px;
-    }
+    } */
     /* small-button-3*/
-    .Wings-Sides-and-More{
+    /* .Wings-Sides-and-More{
         font-size: 16px;
         margin-left: 8px;
         padding-top: 0px;
@@ -1128,12 +1127,12 @@
         padding-left: 115px;
         margin-top: 44px;
         font-size: 22px;
-    }
+    } */
     /* .images{
         display: block;
         flex-direction: column;
     } */
-    .banner-3-image-1{
+    /* .banner-3-image-1{
         width: 130px;
         margin-top: 99px;
         margin-left: 10px;
@@ -1148,9 +1147,9 @@
     }
     .banner-3-image-2:hover{
         transform: scale(1.1);
-    }
+    } */
     /* contact-div */
-    .contact-us-text-div{
+    /* .contact-us-text-div{
         margin-top: 0px;
         padding-left: 27px;
     }
@@ -1236,10 +1235,10 @@
         flex-direction: column;
         height: 600px;
     }
-}
+} */
 
 
-
+/* 
 @media(max-width:1487px){
     .banner-3-image-1{
         width: 500px;
@@ -1247,4 +1246,9 @@
     .banner-3-image-2{
         width: 500px;
     }
-}
+} */
+
+
+
+
+
