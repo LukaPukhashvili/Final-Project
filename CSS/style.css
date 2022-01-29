@@ -375,9 +375,9 @@ body{
     background-image: url(../images/sxva.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
     /* background-image: url(../images/banner-3.svg); */
 }
 .banner-3-background-2{
@@ -416,11 +416,11 @@ body{
     display: flex;
     justify-content: space-between;
 } */
-.images{
+/* .images{
     display: flex;
     justify-content: space-between;
     position: relative;
-}
+} */
 .banner-3-image-1{
     margin-top: 269px;
     position: absolute;
