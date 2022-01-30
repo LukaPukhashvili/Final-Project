@@ -441,6 +441,12 @@
     .contact-us-text-div{
         margin-left: 170px;
     }
+    .banner-3-image-1{
+        width: 75%;
+    }
+    .banner-3-image-2{
+        width: 75%;
+    }
 }
 @media(max-width:680px){
     .header-banner{
@@ -466,6 +472,12 @@
     }
     .button-2{
         margin-left: 260px;
+    }
+    .banner-3-image-1{
+        width: 75%;
+    }
+    .banner-3-image-2{
+        width: 75%;
     }
 }
 @media(max-width:644px){
