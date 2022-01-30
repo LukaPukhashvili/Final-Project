@@ -325,10 +325,17 @@
     }
 }
 @media(max-width:768px){
+    .LOGO{
+        margin-right: 0px;
+    }
     .button-1{
         margin-top: 57px;
         height: 45px;
         margin-right: 80px;
+    }
+    .button-2{
+        margin-left: 290px;
+        margin-top: 60px;
     }
     .toggle-menu {
         display: block;
@@ -391,5 +398,65 @@
     }
     .header-word3{
         display: none;
+    }
+    .main-message-div{
+        margin-top: 360px;
+        margin-left: 200px;
+        padding-left: 0px;
+        width: 410px;
+    }
+    .main-message{
+        font-size: 55px;
+    }
+    .main-message-span{
+        font-size: 55px;
+    }
+    .second-main-message-div{
+        margin-left: 200px;
+        padding-left: 0px;
+    }
+    .second-main-message{
+        margin-top: 35px;
+        font-size: 17px;
+    }
+}
+@media(max-width:724px){
+    .main-message-div{
+        margin-left: 147px;
+    }
+    .main-message{
+        margin-left: 147px;
+    }
+    .button-2{
+        margin-left: 282px;
+    }
+    .contact-background-div{
+        margin-left: 154px;
+    }
+    .contact-us-text-div{
+        margin-left: 170px;
+    }
+}
+@media(max-width:680px){
+    .LOGO{
+        padding-top: 0px;
+        padding-left: 0px;
+        margin-top: 150px;
+        margin-left: 75px;
+    }
+    .contact-background-div{
+        margin-left: 140px;
+    }
+    .contact-us-text-div{
+        margin-left: 160px;
+    }
+    .main-message-div{
+        margin-left: 135px;
+    }
+    .main-message{
+        margin-left: 135px;
+    }
+    .button-2{
+        margin-left: 260px;
     }
 }
