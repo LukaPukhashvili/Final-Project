@@ -328,6 +328,10 @@
     }
 }
 @media(max-width:768px){
+    .button-1{
+        margin-top: 57px;
+        height: 45px;
+    }
     .toggle-menu {
         display: block;
     }

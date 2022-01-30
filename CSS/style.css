@@ -56,12 +56,12 @@ body{
 /* ბურგერის კოდი */
 .toggle-menu {
     position:fixed;
-    top: 20px;
+    top: 60px;
     right: 20px;
     width: 40px;
     height: 40px;
     cursor: pointer;
-    border: 2px solid red;
+    border: 2px solid #F8A22F;
     display: none;
     z-index: 100;
 }
@@ -93,7 +93,7 @@ body{
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.nav-list.toggle {
+.header.toggle {
     position: absolute;
     top: 0;
     left: 0;
