@@ -1,3 +1,193 @@
+@media (max-width:1275px){
+    .nav-li{
+        margin-right: 70px;
+    }
+    .nav-li-2{
+        margin-right: 70px;
+    }
+    .nav-li-3{
+        margin-right: 35px;
+    }
+    .button-1{
+        margin-right: 20px;
+    }
+}
+@media(max-width:1235px){
+    .nav-li{
+        margin-right: 55px;
+    }
+    .nav-li-2{
+        margin-right: 55px;
+    }
+    .nav-li-3{
+        margin-right: 25px;
+    }
+}
+@media(max-width:1175px){
+    .LOGO{
+        margin-right: 300px;
+        padding-left: 67px;
+    }
+    .main-message-div{
+        padding-left: 67px;
+    }
+    .second-main-message-div{
+        padding-left: 67px;
+        max-width: 500px;
+    }
+    .button-2{
+        margin-left: 67px;
+    }
+}
+@media(max-width:1070px){
+    .LOGO{
+        padding-top: 60px;
+    }
+    .button-1{
+        padding: 10px 40px;
+    }
+    .nav-li{
+        margin-right: 45px;
+    }
+    .nav-li-2{
+        margin-right: 45px;
+    }
+    .nav-li-3{
+        margin-right: 20px;
+    }
+    .second-main-div-2{
+        margin-top: 190px;
+    }
+    .section-2-head{
+        font-size: 51px;
+    }
+    .small-button{
+        width: 40px;
+        height: 40px;
+    }
+    .button-and-text-1{
+        margin-top: 55px;
+    }
+    .button-and-text-2{
+        margin-top: 0px;
+    }
+    .button-and-text-3{
+        margin-top: 0px;
+    }
+    .order-food-button{
+        margin-top: 15px;
+    }
+    .contact-background-div{
+        width: 400px;
+        height: 470px;
+    }
+    .full-name-div{
+        margin-left: 55px;
+    }
+    .full-name-input{
+        width: 290px;
+    }
+    .Phone-Number-div{
+        margin-left: 55px;
+    }
+    .Phone-Number-input{
+        width: 290px;
+    }
+    .description-div{
+        margin-left: 55px;
+    }
+    .description{
+        width: 290px;
+    }
+    .checkbox{
+        margin-left: 51px;
+    }
+    .submit-button{
+        margin-left: 112px;
+        margin-top: 20px;
+    }
+    .map{
+        height: 480px;
+    }
+    .footer-main-div{
+        height: 300px;
+    }
+    .footer-logo{
+        margin-left: 120px;
+    }
+}
+@media(max-width:1060px){
+    .LOGO{
+        padding-left: 37px;
+    }
+    .main-message-div{
+        padding-left: 37px;
+        margin-top: 28px;
+    }
+    .main-message{
+        font-size: 51px;
+    }
+    .main-message-span{
+        font-size: 51px;
+    }
+    .second-main-message-div{
+        padding-left: 37px;
+    }
+    .second-main-message{
+        font-size: 16px;
+    }
+    .button-2{
+        margin-left: 37px;
+        padding: 10px 40px;
+    }
+}
+@media(max-width:1030px){
+    .nav-li{
+        font-size: 17px;
+    }
+    .nav-li-2{
+        font-size: 17px;
+    }
+    .nav-li-3{
+        font-size: 17px;
+    }
+}
+@media(max-width:994px){
+    .LOGO{
+        margin-right: 240px;
+    }
+    .button-and-text-1{
+        margin-top: 25px;
+        height: 40px;
+    }
+    .button-and-text-2{
+        height: 40px;
+    }
+    .button-and-text-3{
+        height: 40px;
+    }
+    .Wings-Sides-and-More{
+        font-size: 23px;
+    }
+    .Wings-Sides-and-More-extensive-text{
+        font-size: 14px;
+    }
+}
+@media(max-width:936px){
+    .button-1{
+        padding: 0px 40px;
+        height: 55px;
+        font-size: 18px;
+    }
+    .button-2{
+        height: 55px;
+        padding: 0px 40px;
+        font-size: 18px;
+    }
+    .LOGO{
+        margin-right: 220px;
+    }
+}
 @media (max-width:800px){
     .banner-3-image-1{
         margin-top: 235px;
