@@ -160,8 +160,21 @@
         margin-top: 25px;
         height: 40px;
     }
+    .signature-pizzas{
+        font-size: 23px;
+    }
+    .Signature-Pizzas-extensive-text{
+        font-size: 14px;
+    }
     .button-and-text-2{
         height: 40px;
+        margin-top: 10px;
+    }
+    .Oven-Baked-Subs{
+        font-size: 23px;
+    }
+    .Oven-Baked-Subs-extensive-text{
+        font-size: 14px;
     }
     .button-and-text-3{
         height: 40px;
@@ -171,6 +184,10 @@
     }
     .Wings-Sides-and-More-extensive-text{
         font-size: 14px;
+    }
+    .order-food-button{
+        padding: 0px 40px;
+        height: 55px;
     }
 }
 @media(max-width:936px){
@@ -186,6 +203,92 @@
     }
     .LOGO{
         margin-right: 220px;
+    }
+}
+@media(max-width:908px){
+    .button-1{
+        height: 50px;
+        margin-top: 43px;
+        padding: 0px 30px;
+    }
+    .nav-li{
+        margin-right: 12px;
+    }
+    .nav-li-2{
+        margin-right: 35px;
+    }
+    .nav-li-3{
+        margin-right: 35px;
+    }
+    .LOGO{
+        font-size: 35px;
+    }
+    .main-message-div{
+        width: 370px;
+    }
+    .main-message{
+        font-size: 41px;
+    }
+    .main-message-span{
+        font-size: 41px;
+    }
+    .second-main-message-div{
+        width: 370px;
+    }
+    .second-main-message{
+        font-size: 14px;
+    }
+    .button-2{
+        padding: 0px 30px;
+        height: 50px;
+    }
+    .order-food-button{
+        padding: 0px 30px;
+        height: 50px;
+    }
+}
+@media (max-width:886px){
+    .second-main-div-2{
+        margin-left: 40px;
+    }
+    .footer-logo{
+        margin-left: 40px;
+    }
+    .footer-contact-div{
+        margin-left: 40px;
+    }
+    .footer-menu-div{
+        margin-left: 40px;
+    }
+    .footer-icons-div{
+        margin-left: 40px;
+    }
+    .contact-background-div{
+        margin-left: 253px;
+    }
+    .footer-main-div{
+        height: 280px;
+    }
+    .plans-text{
+        font-size: 51px;
+        margin-top: 74px;
+    }
+    .banner-3-image-1{
+        margin-top: 769px;
+    }
+    .banner-3-image-2{
+        margin-top: 188px;
+    }
+    .contact-us-text-div{
+        margin-top: 600px;
+    }
+}
+@media(max-width:844px){
+    .nav-div{
+        height: 153px;
+    }
+    .second-section-main-div{
+        margin-top: 10px;
     }
 }
 @media (max-width:800px){
