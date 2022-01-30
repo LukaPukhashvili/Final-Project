@@ -378,4 +378,13 @@
     .button-and-text-1{
         margin-top: 45px;
     }
+    .header-word1{
+        display: none;
+    }
+    .header-word2{
+        display: none;
+    }
+    .header-word3{
+        display: none;
+    }
 }
