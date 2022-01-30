@@ -551,4 +551,113 @@
     .main-message {
         margin-left: 0px;
     }
+    .button-2 {
+        margin-left: 200px;
+    }
+    .main-message-div {
+        margin-left: 95px;
+    }
+    .second-main-message-div {
+        margin-left: 95px;
+    }
+}
+@media(max-width:528px){
+    .LOGO{
+        margin-left: 25px;
+    }
+    .contact-background-div {
+        margin-left: 84px;
+        width: 330px;
+    }
+    .full-name-div {
+        margin-left: 42px;
+    }
+    .full-name-input {
+        width: 250px;
+        margin-top: 60px;
+    }
+    .Phone-Number-div {
+        margin-left: 43px;
+    }
+    .Phone-Number-input {
+        width: 250px;
+    }
+    .description-div {
+        margin-left: 45px;
+    }
+    .description {
+        width: 250px;
+    }
+    .checkbox-text {
+        font-size: 14px;
+    }
+    .submit-button {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .contact-us-text-div {
+        margin-left: 86px;
+    }
+    .main-message-div {
+        margin-left: 35px;
+    }
+    .second-main-message-div {
+        margin-left: 35px;
+        padding-left: 0px;
+    }
+    .button-2 {
+        margin-left: 170px;
+    }
+}
+@media(max-width:500px){
+    .contact-background-div {
+        margin-left: 54px;
+    }
+    .contact-us-text-div {
+        margin-left: 54px;
+    }
+    .contact-us-text-div {
+        margin-top: 260px;
+    }
+    .second-main-div-2 {
+        margin-left: 50px;
+    }
+    .main-message {
+        font-size: 48px;
+    }
+    .second-main-message {
+        font-size: 14px;
+    }
+    .button-2 {
+        margin-left: 160px;
+    }
+    .toggle-menu {
+        width: 30px;
+        height: 30px;
+    }
+    .button-1 {
+        margin-top: 27px;
+        height: 35px;
+    }
+}
+@media(max-width:480px){
+    .LOGO {
+        font-size: 34px;
+        margin-top: 120px;
+    }
+    .contact-background-div {
+        margin-left: 68px;
+    }
+    .second-main-div-2 {
+        margin-left: 30px;
+    }
+    .full-name-div {
+        width: 250px;
+    }
+    .Phone-Number-div {
+        width: 250px;
+    }
+    .description-div {
+        width: 250px;
+    }
 }
