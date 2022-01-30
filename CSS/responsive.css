@@ -831,4 +831,78 @@
     .LOGO {
         font-size: 30px;
     }
+    .second-main-div-2 {
+        width: 320px;
+    }
+}
+@media(max-width:348px){
+    .plans-text {
+        font-size: 43px;
+    }
+    .banner-3-image-1 {
+        margin-top: 430px;
+    }
+    .signature-pizzas {
+        max-width: 210px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .Signature-Pizzas-extensive-text {
+        padding-left: 50px;
+        width: 270px;
+    }
+    .Oven-Baked-Subs {
+        font-size: 25px;
+        max-width: 210px;
+        margin-left: 10px;
+    }
+    .Oven-Baked-Subs-extensive-text {
+        padding-left: 50px;
+        width: 270px;
+    }
+    .Wings-Sides-and-More {
+        font-size: 25px;
+        margin-left: 10px;
+        width: 210px;
+    }
+    .Wings-Sides-and-More-extensive-text {
+        padding-left: 50px;
+        width: 270px;
+    }
+    .order-food-button {
+        margin-left: 80px;
+    }
+    .contact-background-div {
+        margin-left: 22px;
+    }
+    .footer-main-div {
+        height: 740px;
+    }
+    .footer-logo {
+        margin-left: 60px;
+    }
+    .toggle-menu {
+        top: 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .line {
+        height: 2px;
+    }
+    .LOGO {
+        font-size: 26px;
+    }
+    .footer-icons-div {
+        width: 100px;
+    }
+}
+@media(max-width:330px){
+    .contact-background-div {
+        margin-left: 5px;
+    }
+    .contact-us-text-div {
+        margin-top: 130px;
+        width: 240px;
+        margin-left: 20px;
+    }
 }
