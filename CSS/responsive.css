@@ -212,13 +212,13 @@
         padding: 0px 30px;
     }
     .nav-li{
-        margin-right: 12px;
+        margin-right: 35px;
     }
     .nav-li-2{
         margin-right: 35px;
     }
     .nav-li-3{
-        margin-right: 35px;
+        margin-right: 12px;
     }
     .LOGO{
         font-size: 35px;
@@ -290,6 +290,14 @@
     .second-section-main-div{
         margin-top: 10px;
     }
+    .LOGO{
+        margin-right: 180px;
+    }
+}
+@media(max-width:830px){
+    .LOGO{
+        margin-right: 170px;
+    }
 }
 @media (max-width:800px){
     .banner-3-image-1{
@@ -303,5 +311,33 @@
     }
     .Signature-Pizzas-extensive-text{
         width: 300px;
+    }
+}
+@media(max-width:796px){
+    .nav-li{
+        margin-right: 25px;
+    }
+    .nav-li-2{
+        margin-right: 25px;
+    }
+    .nav-li-3{
+        margin-right: 0px;
+    }
+    .LOGO{
+        margin-right: 165px;
+    }
+}
+@media(max-width:768px){
+    .contact-background-div{
+        margin-left: 184px;
+    }
+    .contact-us-text-div{
+        margin-left: 224px;
+    }
+    .second-section-main-div{
+        display: block;
+    }
+    .banner-2{
+        width: 90%;
     }
 }
