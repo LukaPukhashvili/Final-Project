@@ -247,6 +247,11 @@
         height: 50px;
     }
 }
+@media(max-width:894px){
+    .footer-icons-div{
+        margin-left: 85px;
+    }
+}
 @media (max-width:886px){
     .second-main-div-2{
         margin-left: 40px;
@@ -422,10 +427,10 @@
 }
 @media(max-width:724px){
     .main-message-div{
-        margin-left: 147px;
+        margin-left: 145px;
     }
     .main-message{
-        margin-left: 147px;
+        margin-left: 145px;
     }
     .button-2{
         margin-left: 282px;
@@ -438,6 +443,9 @@
     }
 }
 @media(max-width:680px){
+    .header-banner{
+        width: 75%;
+    }
     .LOGO{
         padding-top: 0px;
         padding-left: 0px;
@@ -458,5 +466,89 @@
     }
     .button-2{
         margin-left: 260px;
+    }
+}
+@media(max-width:644px){
+    .main-message {
+        margin-left: 0px;
+    }
+    .footer-contact-div {
+        margin-left: 20px;
+    }
+    .footer-menu-div {
+        margin-left: 20px;
+    }
+    .footer-icons-div {
+        margin-left: 30px;
+    }
+}
+@media(max-width:636px){
+    .main-message {
+        margin-left: 0px;
+    }
+    .footer-logo {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .contact-background-div {
+        margin-left: 130px;
+    }
+    .contact-us-text-div{
+        margin-left: 140px;
+    }
+    .banner-3-image-1 {
+        width: 85%;
+        margin-top: 709px;
+    }
+    .banner-3-image-1:hover{
+        transform: scale(1.1);
+    }
+    .banner-3-image-2 {
+        width: 85%;
+    }
+    .banner-3-image-2:hover{
+        transform: scale(1.1);
+    }
+}
+@media(max-width:588px){
+    .contact-background-div {
+        margin-left: 94px;
+    }
+    .contact-us-text-div{
+        margin-left: 114px;
+    }
+    .banner-3-image-1 {
+        width: 75%;
+        margin-top: 590px;
+    }
+    .banner-3-image-1:hover{
+        transform: scale(1.1);
+    }
+    .banner-3-image-2 {
+        width: 75%;
+    }
+    .banner-3-image-2:hover{
+        transform: scale(1.1);
+    }
+    .footer-main-div{
+        display: block;
+        height: 800px;
+    }
+    .second-main-div-2 {
+        margin-left: 70px;
+    }
+    .footer-logo {
+        margin-left: 120px;
+    }
+    .button-1 {
+        font-size: 14px;
+        margin-top: 30px;
+        height: 40px;
+    }
+    .toggle-menu {
+        top: 30px;
+    }
+    .main-message {
+        margin-left: 0px;
     }
 }
