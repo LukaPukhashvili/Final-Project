@@ -12,3 +12,12 @@ function suborderbuttons(){
 function feedback(){
     swal("Feedback was sent successfully!", "We will definitely share your feedback", "success");
 }
+
+let burgerButton = document.getElementById('toggleButton');
+let navBar = document.getElementById('navigation-ul');
+
+
+burgerButton.addEventListener('click', function() {
+    navBar.classList.toggle('toggle');
+    burgerButton.classList.toggle('active');
+})

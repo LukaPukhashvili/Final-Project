@@ -328,6 +328,12 @@
     }
 }
 @media(max-width:768px){
+    .toggle-menu {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+    }
     .contact-background-div{
         margin-left: 184px;
     }
@@ -339,5 +345,37 @@
     }
     .banner-2{
         width: 90%;
+    }
+    .second-main-div-2{
+        margin-left: 170px;
+    }
+    .signature-pizzas{
+        max-width: 250px;
+        font-size: 30px;
+    }
+    .Signature-Pizzas-extensive-text{
+        margin-top: 15px;
+    }
+    .button-and-text-2{
+        margin-top: 20px;
+    }
+    .Oven-Baked-Subs{
+        font-size: 30px;
+        max-width: 250px;
+    }
+    .Oven-Baked-Subs-extensive-text{
+        margin-top: 15px;
+    }
+    .button-and-text-3{
+        margin-top: 10px;
+    }
+    .Wings-Sides-and-More{
+        font-size: 30px;
+    }
+    .order-food-button{
+        margin-top: 35px;
+    }
+    .button-and-text-1{
+        margin-top: 45px;
     }
 }

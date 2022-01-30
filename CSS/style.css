@@ -53,6 +53,59 @@ body{
     color: #242424;
     z-index: 997;
 }
+/* ბურგერის კოდი */
+.toggle-menu {
+    position:fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid red;
+    display: none;
+    z-index: 100;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0); 
+    transition: all 0.3s linear; 
+}
+.line1 {
+    top: 30%;
+}
+.line3 {
+    top: 70%;
+}
+.active .line1 {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active .line2 {
+    display: none;
+}
+.active .line3 {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.nav-list.toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightcoral;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* ბურგერის გასტილვა დასრულდა */
 .nav-li{
     margin-right: 116px;
     padding-top: 60px;
