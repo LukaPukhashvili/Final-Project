@@ -330,6 +330,7 @@
     }
 }
 @media(max-width:768px){
+
     .LOGO{
         margin-right: 0px;
     }
@@ -353,6 +354,7 @@
     }
     .contact-us-text-div{
         margin-left: 224px;
+        width: 370px;
     }
     .second-section-main-div{
         display: block;
@@ -701,6 +703,14 @@
         width: 330px;
     }
 }
+@media(max-width:464px){
+    .second-main-div-2 {
+        width: 370px;
+    }
+    .main-message-div {
+        width: 370px;
+    }
+}
 @media(max-width:438px){
     .main-message-div {
         margin-left: 35px;
@@ -714,6 +724,22 @@
     }
     .button-2 {
         margin-left: 130px;
+    }
+}
+@media(max-width:424px){
+    .second-main-message-div {
+        width: 320px;
+    }
+    .contact-us-text-div {
+        width: 310px;
+    }
+    .contact-background-div {
+        margin-left: 38px;
+    }
+    .second-main-div-2 {
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 350px;
     }
 }
 @media(max-width:412px){
@@ -904,5 +930,10 @@
         margin-top: 130px;
         width: 240px;
         margin-left: 20px;
+    }
+}
+@media(max-width:320px){
+    .second-main-div-2 {
+        width: 280px;
     }
 }
