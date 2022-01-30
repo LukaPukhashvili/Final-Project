@@ -526,6 +526,7 @@ body{
 }
 .contact-us-text-div{
     max-width: 500px;
+    width: 100%;
     max-height: 90px;
     margin-top: 130px;
     margin-left: 102px;

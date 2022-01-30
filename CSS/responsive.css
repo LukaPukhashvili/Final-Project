@@ -678,4 +678,49 @@
     .description-div {
         width: 250px;
     }
+    .banner-3-image-1 {
+        margin-top: 510px;
+    }
+    .head {
+        max-width: 270px;
+    }
+    .section-2-head {
+        margin-left: 75px;
+    }
+    .order-food-button {
+        margin-left: 120px;
+    }
+    .second-main-div-2 {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .contact-us-text-div {
+        width: 330px;
+    }
+}
+@media(max-width:438px){
+    .main-message-div {
+        margin-left: 35px;
+        width: 340px;
+    }
+    .main-message {
+        font-size: 42px;
+    }
+    .main-message-span {
+        font-size: 42px;
+    }
+    .button-2 {
+        margin-left: 130px;
+    }
+}
+@media(max-width:412px){
+    .contact-background-div {
+        margin-left: 28px;
+    }
+    .contact-us-text-div {
+        margin-left: 34px;
+    }
+    .footer-logo {
+        margin-left: 80px;
+    }
 }
