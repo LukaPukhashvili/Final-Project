@@ -921,6 +921,9 @@
     .footer-icons-div {
         width: 100px;
     }
+    .second-main-div-2 {
+        width: 280px;
+    }
 }
 @media(max-width:330px){
     .contact-background-div {
